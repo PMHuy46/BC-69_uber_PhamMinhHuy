@@ -86,11 +86,6 @@ document.querySelector(".contact100-form-btn").onclick = function () {
         currency: 'VND',
     })
 
-    
-}
-document.querySelector(".btn2").onclick = function(){
-    $('#exampleModal').modal('show')
-
     document.querySelector(".modal-body").innerHTML = `
         <table class="table table-bordered " width="600" >
         <tr>
@@ -158,3 +153,5 @@ document.querySelector(".btn2").onclick = function(){
         </tr>
     </table>`
 }
+
+
